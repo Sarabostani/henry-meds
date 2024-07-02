@@ -1,0 +1,35 @@
+{
+  "name": "henry-meds",
+  "version": "1.0.0",
+  "description": "Henry meds exercise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarabostani/henry-meds.git"
+  },
+  "author": "Houman Sarabostani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarabostani/henry-meds/issues"
+  },
+  "homepage": "https://github.com/Sarabostani/henry-meds#readme",
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "fastify-plugin": "^4.5.1",
+    "moment": "^2.30.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/lowdb": "^1.0.15",
+    "@types/node": "^20.14.9",
+    "@types/sqlite3": "^3.1.11",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.2"
+  }
+}
